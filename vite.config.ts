@@ -16,7 +16,7 @@ export default defineConfig({
       fileName: 'react-tarxemo-effects',
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'framer-motion'],
+      external: ['react', 'react-dom', 'react/jsx-runtime', 'framer-motion'],
       output: {
         globals: {
           react: 'React',

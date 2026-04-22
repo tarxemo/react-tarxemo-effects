@@ -1,6 +1,6 @@
 {
   "name": "react-tarxemo-effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable React library that adds beautiful visual effects and user experience enhancements.",
   "type": "module",
   "main": "dist/react-tarxemo-effects.umd.cjs",
