@@ -1,0 +1,59 @@
+{
+  "name": "react-tarxemo-effects",
+  "version": "1.0.0",
+  "description": "A reusable React library that adds beautiful visual effects and user experience enhancements.",
+  "type": "module",
+  "main": "dist/react-tarxemo-effects.umd.cjs",
+  "module": "dist/react-tarxemo-effects.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-tarxemo-effects.js",
+      "require": "./dist/react-tarxemo-effects.umd.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "canvas-confetti": "^1.9.2",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "tailwind-merge": "^2.2.1",
+    "tsparticles": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "keywords": [
+    "react",
+    "effects",
+    "tarxemo",
+    "animations",
+    "particles",
+    "confetti"
+  ],
+  "author": "TarXemo",
+  "license": "MIT"
+}
